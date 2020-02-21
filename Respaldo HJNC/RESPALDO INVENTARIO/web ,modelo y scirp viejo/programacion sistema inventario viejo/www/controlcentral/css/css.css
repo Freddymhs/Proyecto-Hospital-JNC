@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{background:url(../imagenes/background.png) no-repeat;
+	  position:absolute;
+	  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	  color: #15428b;
+}
+
+A:link, A:visited, A:hover, A:active { text-decoration: none;
+									   padding-top:1px;
+									   padding-bottom:1px;
+									   font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+									   color: #0F2F4B;
+	                                   text-align:left;
+}
+
+/*******************************************/
+/********* ESTILO DEL FORMULARIO LOGEO ********/
+
+#formContenedorMenu{
+	position:absolute;
+	width:802px;
+	left:-80px;
+	margin-left:100px;
+	top: 202px;
+}
+
+/*******************************************/
+/************* FORMULARIO MENU *************/
+
+#formContenedorMenu {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:12px;/*162*/
+	margin-left:10px;
+	top: 220px;
+}
+
+table#miTablaMenu {
+	background:url(../imagenes/fondotablaingreso.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+.ImgMenu{
+	border:0;
+}
+
+/*******************************************/
+/*********** FORMULARIO INGRESO ************/
+
+#formContenedor {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:12px;/*162*/
+	margin-left:10px;
+	top: 220px;
+}
+
+table#miTabla {
+	background:url(../imagenes/fondotablaingreso.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+.cabeceratabla{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+}
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}
+
+/*****  DIV BOTONES GUARGAR Y SALIR *****/
+
+#divBoton
+{
+	position:absolute;
+	top:405px;
+	right:-25px;/*122*/
+}
+
+
+button { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/***** MENSAJES CONFIRMA Y ERROR *****/
+
+#transparencia
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	width:927px;/*730px*/
+	height:395px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");
+}
+
+#transparenciaMensaje
+{
+	position:absolute;
+	width:300px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}
+
+/********************************************/
+/*********** FORMULARIO BUSQUEDA ************/
+
+#formContenedorBuscar {
+	text-align:left;
+	position:absolute;
+	width:920px;
+	left:12px;/*162*/
+	margin-left:10px;
+	top: 220px;
+}
+
+table#miTablaBuscar {
+	background:url(../imagenes/fondotablabusqueda.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+#divTablaInt {
+	overflow:scroll;
+	border:1px solid #0F2F4B;
+	height:500px;
+	width:880px;
+}
+
+table#miTablaInt {
+	table-layout: fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+}
+
+/*****  DIV BOTONES GUARGAR Y SALIR *****/
+
+#divBotonBuscar
+{
+	position:absolute;
+	top:700px;
+	right:-2px;/*122*/
+}
+
+#BotonBuscar
+{
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/********************************************/
+/******** FORMULARIO HISTORIAL TURNO ********/
+
+#formContenedorHistorial {
+	text-align:left;
+	position:absolute;
+	width:920px;
+	left:12px;/*162*/
+	margin-left:20px;/*10*/
+	top: 238px;
+}
+
+table#miTablaHistorial {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablabusqueda.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:928px;
+	height:397px;
+}
+
+#divTablaIntHistorial {
+	overflow:scroll;
+	border:1px solid #0F2F4B;
+	height:270px;
+	width:868px;
+}
+
+table#miTablaIntHistorial  {
+	border-collapse:collapse;
+	table-layout: fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+	width:1700px;
+}
+
+#titulos{
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tr{ 
+     background:url(../imagenes/bgthgrid.JPG) repeat center;
+	 font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	 color: #0F2F4B;
+	 width:2450px;
+	}
+.td{ 
+	 text-align:center;
+	 border:2px solid #B6CFDA;
+
+}
+.th{ 
+	 border:2px solid #B6CFDA;
+}
+
+/*****  DIV BOTONES BUSCAR Y SALIR *****/
+
+#divBotonHistorial
+{
+	position:absolute;
+	top:700px;
+	right:100px;/*122*/
+}
+
+/********************************************/
+/******** FORMULARIO DETALLE TURNO ********/
+
+
+#formContenedorDetalle{
+	text-align:left;
+	position:absolute;
+	width:800px;
+	left:10px;/*162*/
+	margin-left:-10px;/*10*/
+	top: 2px;
+}
+
+.cabeceratablaupdate{
+	background:url(../imagenes/bgcabeceragrid.JPG) repeat-x center;
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+	border:1px solid ##B6CFDA;
+	width:835px;
+}
+
+table#miTablaDetalle{
+	table-layout: fixed;
+	background-color: white;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:800px;
+	height:640px;
+}
+
+table#miTablaIntDetalle {
+	table-layout: fixed;
+	background-color: white;
+	text-align:left;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:800px;/*694px*/
+}
+
+.titulosInt{
+    text-align:center;
+	background-color: white;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tdrespuesta{
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#999999 ;/*#15428b*/
+}
+
+.estado{
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#F00;
+}
+
+/*****  DIV CONTENEDOR DE BOTONES GUARGAR Y LIMPIAR *****/
+
+table#miTablaBotonDetalle {
+	width:835px;	
+}
+
+/***** Capas de transparencia y mensajes de confirmacion mantencion *****/
+#transparenciaDetalle
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	width:835px;
+	height:700px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");/*95*/
+}
+
+#transparenciaMensajeDetalle{
+	position:absolute;
+	width:300px;/*300*/
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}
+
+/********************************************/
+/*********** FORMULARIO REPORTES ************/
+
+#formContenedorReporte {
+	text-align:left;
+	position:absolute;
+	width:925px;
+	left:20px;/*162*/
+	top: 230px;
+}
+
+table#miTablaReporte  {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablareporte.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:928px;
+	height:260px;
+}
+
+.tituloReporte{
+    text-align:center;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#divBotonReporte
+{
+	position:absolute;
+	top:260px;
+	right:0px;/*122*/
+}

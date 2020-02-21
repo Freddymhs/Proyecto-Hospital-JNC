@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{background:url(../imagenes/background.png) no-repeat;
+	  position:absolute;
+	  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	  color:#15428b;
+}
+
+A:link, A:visited, A:hover, A:active { text-decoration:  none;
+		   padding-top:1px;
+		   padding-bottom:1px;
+		   font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+		   color:#0F2F4B;
+}
+
+/**********************************************/
+/***************  MENU USUARIOS  **************/
+
+#formContenedorMenu {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:26px;/*162*/
+	top: 225px;
+}
+
+table#miTablaMenu {
+	background:url(../imagenes/fondotablamenu.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+.ImgMenu{
+	border:0;
+}
+
+/**********************************************/
+/*********** FORMULARIO DE INGRESO ************/
+
+#formContenedor {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:18px;/*162*/
+	margin-left:10px;
+	top: 225px;
+}
+
+.cabeceTitulos{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	text-align:center;
+}
+
+table#TablaRegistro {
+	background:url(../imagenes/fondotablaingreso.png) no-repeat;
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:925px;	
+}
+
+.inputNumExamen { 
+	width:115px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputNombres { 
+	width:300px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputFecha { 
+	width:80px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputDiagnostico { 
+	width:400px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+
+
+.inputProcedencia{ 
+	width:170px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+/**  BOTONES GUARGAR Y LIMPIAR **/
+
+#divBoton
+{
+	position:absolute;
+	top:417px;
+	right:-20px;/*122*/
+}
+
+button { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/****** BOTONES AGREGAR DIV *****/
+
+#buttonAddSelect { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonAddSelect2 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonDelSelect2 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonAddSelect3 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonDelSelect3 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonAddSelect4 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonDelSelect4 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#buttonDelSelect5 { 
+	width:20px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/** Capas de transparencia y mensajes de confirmacion **/
+
+#transparencia
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	width:925px;
+	height:450px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");/*95*/
+}
+
+#transparenciaMensaje
+{
+	position:absolute;
+	width:300px;/*300*/
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}
+
+
+/**********************************************/
+/*********** FORMULARIO DE BUSQUEDA ***********/
+
+#formContenedorbuscar {
+	text-align:left;
+	position:absolute;
+	width:930px;
+	left:28px;
+	top: 163px;
+}
+
+#divcompleto {
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:930px;
+}
+
+table#miTablaBuscar {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablabuscar.PNG) no-repeat left;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:930px;	
+}
+
+#divTablaInt {
+	overflow:scroll;
+	border:1px solid #99bbe8;
+	height:420px;
+}
+
+.cabeceratablaInt{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	text-align:center;
+}
+
+table#miTablaInt {
+	table-layout: fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+	width:1100px;
+}
+
+.tr{ 
+     background:url(../imagenes/bgthgrid.JPG) repeat center;
+	 font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	 color: #0F2F4B;
+	 width:1100px;
+	}
+.td{ 
+	 text-align:center;
+	 border:1px solid #B6CFDA;
+
+}
+.th{ 
+	 border:1px solid #B6CFDA;
+}
+
+/***  DIV CONTENEDOR DE BOTON BUSCAR  ***/
+
+#divBotonBuscar{
+	position:absolute;
+	top:744px;
+	right:10px;/*122*/
+}
+
+#ButtonBuscar { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+
+/**********************************************/
+/******** FORMULARIO VISUALIZA EXAMEN *********/
+
+
+table#miTablaVisualizaExamen {
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:840px;	
+}
+
+.Datos{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	text-align:left;
+}
+
+/**********************************************/
+/**************  REPORTE EXAMEN  **************/
+
+#formContenedorReporte {
+	text-align:left;
+	position:absolute;
+	width:930px;
+	left:28px;
+	top: 220px;
+}
+
+#divcompletoReporte {
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:930px;
+}
+
+table#miTablaReporte {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablareporte.PNG) no-repeat left;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:930px;	
+}
+
+/***  DIV CONTENEDOR DE BOTON REPORTE  ***/
+
+#divBotonReporte{
+	position:absolute;
+	top:208px;
+	right:10px;/*122*/
+}

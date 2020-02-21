@@ -1,0 +1,45 @@
+res : INSERT INTO mantencion (id_unidad, mac, nombre_usuario, nombre_tecnico, mantencion_prev, mantencion_corr, fecha_actual_mantencion, dias_asignados)
+								 VALUES(,'00-22-69-4C-FE-E3','','Alejandro González','','- Limpieza interna y externa del PC.
+- Limpieza ventilacion y coolers del PC.
+- Limpieza de teclado.
+- Limpieza de monitor.
+- Cambio de piezas con problemas detectados. 
+- Limpieza interna y externa impresoras.
+- Se realiza un respaldo de toda la informacion del equipo.
+- Se reinstala el Sistema Operativo del equipo.
+- Se instalan todos los programas, antivirus y actualizaciones.
+- Se copian todos los datos respaldados previamente. 
+                 ',CURDATE(),1);
+res : SELECT id_unidad
+		        FROM unidad
+		        WHERE nombre_unidad = '' 
+res : INSERT INTO mantencion (id_unidad, mac, nombre_usuario, nombre_tecnico, mantencion_prev, mantencion_corr, fecha_actual_mantencion, dias_asignados)
+								 VALUES(,'00-22-69-4C-FE-E3','','Alejandro González','','- Limpieza interna y externa del PC.
+- Limpieza ventilacion y coolers del PC.
+- Limpieza de teclado.
+- Limpieza de monitor.
+- Cambio de piezas con problemas detectados. 
+- Limpieza interna y externa impresoras.
+- Se realiza un respaldo de toda la informacion del equipo.
+- Se reinstala el Sistema Operativo del equipo.
+- Se instalan todos los programas, antivirus y actualizaciones.
+- Se copian todos los datos respaldados previamente. 
+                 ',CURDATE(),1);
+res : 
+res : 
+res : Seguridad y Calidad Paciente
+res : SELECT id_unidad
+		        FROM unidad
+		        WHERE nombre_unidad = 'Seguridad y Calidad Paciente' 
+res : INSERT INTO mantencion (id_unidad, mac, nombre_usuario, nombre_tecnico, mantencion_prev, mantencion_corr, fecha_actual_mantencion, dias_asignados)
+								 VALUES(86,'00-15-58-ED-E4-F5','Orfa Ferrada','Alejandro González','','- Limpieza interna y externa del PC.
+- Limpieza ventilacion y coolers del PC.
+- Limpieza de teclado.
+- Limpieza de monitor.
+- Cambio de piezas con problemas detectados. 
+- Limpieza interna y externa impresoras.
+- Se realiza un respaldo de toda la informacion del equipo.
+- Se reinstala el Sistema Operativo del equipo.
+- Se instalan todos los programas, antivirus y actualizaciones.
+- Se copian todos los datos respaldados previamente. 
+                 ',CURDATE(),1);

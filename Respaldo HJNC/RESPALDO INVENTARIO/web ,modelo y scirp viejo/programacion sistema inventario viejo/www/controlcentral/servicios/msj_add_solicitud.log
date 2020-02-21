@@ -1,0 +1,35 @@
+INSERT INTO orden (id_unidad,id_operador,turno,problema,estado,fecha_inicio,hora_inicio)
+    					  VALUES(109,1,'20:00-08:00','problema con la uma 1.1','Ingresada',CURDATE(),CURTIME())
+ result : INSERT INTO orden (id_unidad,id_operador,turno,problema,estado,fecha_inicio,hora_inicio)
+    					  VALUES(109,1,'20:00-08:00','problema con la uma 1.1','Ingresada',CURDATE(),CURTIME())
+INSERT INTO orden (id_unidad,id_operador,turno,problema,estado,fecha_inicio,hora_inicio)
+    					  VALUES(24,1,'20:00-08:00','problema con la uma 1.1','Ingresada',CURDATE(),CURTIME())
+ result : INSERT INTO orden (id_unidad,id_operador,turno,problema,estado,fecha_inicio,hora_inicio)
+    					  VALUES(24,1,'20:00-08:00','problema con la uma 1.1','Ingresada',CURDATE(),CURTIME())
+SELECT orden.id_orden, orden.fecha_inicio, unidad.nombre_unidad, orden.estado,
+					   operador.nombre_operador, orden.problema
+				FROM orden
+					Left Join detalle_orden ON detalle_orden.id_detalle = orden.id_detalle
+					Inner Join unidad ON unidad.id_unidad = orden.id_unidad
+					Inner  Join operador ON operador.id_operador = orden.id_operador
+				WHERE orden.turno = '08:00-20:00'
+					AND orden.fecha_inicio = '2010-12-13'
+				    AND orden.estado IN ('Ingresada', 'Revisada', 'Pendiente')
+SELECT orden.id_orden, orden.fecha_inicio, unidad.nombre_unidad, orden.estado,
+					   operador.nombre_operador, orden.problema
+				FROM orden
+					Left Join detalle_orden ON detalle_orden.id_detalle = orden.id_detalle
+					Inner Join unidad ON unidad.id_unidad = orden.id_unidad
+					Inner  Join operador ON operador.id_operador = orden.id_operador
+				WHERE orden.turno = '08:00-20:00'
+					AND orden.fecha_inicio = '2010-12-13'
+				    AND orden.estado IN ('Ingresada', 'Revisada', 'Pendiente')
+SELECT orden.id_orden, orden.fecha_inicio, unidad.nombre_unidad, orden.estado,
+					   operador.nombre_operador, orden.problema
+				FROM orden
+					Left Join detalle_orden ON detalle_orden.id_detalle = orden.id_detalle
+					Inner Join unidad ON unidad.id_unidad = orden.id_unidad
+					Inner  Join operador ON operador.id_operador = orden.id_operador
+				WHERE orden.turno = '08:00-20:00'
+					AND orden.fecha_inicio = '2010-12-13'
+				    AND orden.estado IN ('Ingresada', 'Revisada', 'Pendiente')

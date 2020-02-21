@@ -1,0 +1,2 @@
+database ,'hostname' => , la dir ip donde esta la BD 10.10.10.10 o localhost
+config ,$config['base_url'] , asignar una ip de del server creo 10.10.10.10 o localhost 

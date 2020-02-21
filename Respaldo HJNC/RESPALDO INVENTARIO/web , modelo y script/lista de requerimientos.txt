@@ -1,0 +1,83 @@
+PC 
+
+pc tien datos basicos genericos
+pc tiene estados de disponibilida
+pc se asigna a una ip
+pc tiene modelos para crearse
+pc tiene modelos asignables
+
+-----------------------------------------
+monitor
+
+monitor tiene datos basicos genericos , serial inv y otros
+monitor tiene estado disponibilida
+monitor tiene seccion asociada
+monitor tiene un PC correspodiente
+monitor puede ACTUALIZAR su PC correspodiente
+monitor PUEDE tener fecha llegada y salida
+
+-----------------------------------------
+
+unidad
+
+unidades tiene nombre
+unidad esta asociada a un cantidad de computadores con pantalla
+unidad esta asociada a una cantiada de upss
+unidad esta asocaida a una cantidad  de impresoras
+
+-----------------------------------------
+UPS
+
+ups tiene estado disponibilidad
+ups puede ser agregada
+ups puede ser removida
+ups puede pertenece a una unidad
+ups tiene una cantidad de Equipos a cargo
+ups tiene una CAPACIDAD
+
+-------------------------------------------
+usuario
+
+usuario tiene rut
+usuario tiene nombres y apellidos
+usuario tiene un tipo de ROl
+usuario puede actualizarse un ROL
+usuario existe en una ubicacion
+usuario existe correo electronico
+
+
+-----------------------------------------
+impresora
+
+impresora tiene estado disponibilidad
+impresora puede asignarsele datos basicos genericos
+impresora PUEDE tener fecha llegada y salida
+impresora tiene ubicacion 
+impresora esta asociada a una ip (asignada o de pc)
+impresora tiene un usuario encargado
+impresora tiene tipos de impresion
+
+
+
+-----------------------------------------
+Telefono
+
+telefono tiene estado disponibilidad
+telefono pueden ser registrados
+telefono puede ser removido
+telefono puede ser actualizado (nombre persona)
+telefono puede ser mostrado por filtros(numero o nombre persona)
+telefono puede asignarsele otra unidad
+telefono puede asignarse mac y serial
+telefono tiene fecha de ingreso
+telefono pertenecera a una unidad
+ 
+-----------------------------------------
+Unidades
+
+unidades pueden modificarse
+unidades pueden add
+unidades pueden del
+unidades pueden update
+
+-----------------------------------------

@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{background:url(../imagenes/background.png) no-repeat;
+	  position:absolute;
+	  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	  color: #15428b;
+}
+
+A:link, A:visited, A:hover, A:active { text-decoration: none;
+									   padding-top:1px;
+									   padding-bottom:1px;
+									   font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+									   color: #0F2F4B;
+	                                   text-align:left;
+}
+
+
+/************* ESTILO DEL FORMULARIO LOGEO ****************/
+
+#formContenedorMenu{
+	position:absolute;
+	width:802px;
+	left:14px;
+	top: 230px;
+}
+
+.cabezeramenu_login{
+	background:url(../imagenes/cabezeramenu.PNG) no-repeat left top ;
+	width:925px;
+	height:60px;
+}
+
+/************* ESTILO DEL FORMULARIO MENU *****************/
+
+#formContenedorMenu {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:16px;/*162*/
+	margin-left:14px;
+	top: 226px;
+}
+
+table#miTablaMenu {
+	background:url(../imagenes/fondotablamenu.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+.ImgMenu{
+	border:0;
+	padding:0;
+	
+}
+
+/************* ESTILO DEL FORMULARIO MANTENCION ****************/
+
+#formContenedor {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:14px;/*162*/
+	margin-left:14px;
+	top: 225px;
+}
+
+table#miTabla {
+	background:url(../imagenes/fondotablaingreso.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:930px;
+	height:900px;
+}
+
+.cabeceratabla{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+}
+
+.titulosInt{
+    text-align:center;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#0F2F4B;
+}
+
+.inputMac{ 
+	width:150px;
+	height:18px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.inputIp{ 
+	width:115px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.inputGrupo {
+	width:160px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.inputUnidad{
+	width:300px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.inputUsuario { 
+	width:300px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.inputSerie { 
+	width:150px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.combobox{ 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+}
+
+.areatexto{ 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+	width:500px;
+	height:100px;
+}
+
+.areatexto2{ 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #0F2F4B;
+	width:500px;
+	height:170px;
+}
+
+/************* Capas de transparencia y mensajes de confirmacion *************/
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}
+
+#transparencia
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	margin-left:5px;
+	top: 10px;
+	width:922px;
+	height:885px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");/*95*/
+}
+
+#transparenciaMensaje
+{
+	position:absolute;
+	width:300px;/*300*/
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}
+
+/************* DIV CONTENEDOR BOTONES GUARGAR Y LIMPIAR **************/
+
+#divBoton
+{
+	position:absolute;
+	top:890px;
+	right:-25px;/*122*/
+}
+
+button { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/************* ESTILO DEL FORMULARIO BUSQUEDA ***************/
+
+#formContenedorbuscar {
+	text-align:left;
+	position:absolute;
+	width:920px;
+	left:16px;/*162*/
+	margin-left:10px;
+	top: 205px;
+}
+
+#divcompleto {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:923px;
+	height:580px;
+}
+
+table#miTablaUpd {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablabuscar.PNG) no-repeat left;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:600px;
+}
+
+#divTablaInt {
+	overflow:scroll;
+	border:1px solid #0F2F4B;
+	height:400px;
+}
+
+
+.cabeceratablaInt{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+}
+
+table#miTablaInt {
+	table-layout: fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+	width:860px;
+	height:410px;
+}
+
+.tr{ 
+	 font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	 color: #0F2F4B;
+	 text-align:center;
+	}
+.td{ 
+     width:50px;
+	 text-align:center;
+	 border:1px solid #B6CFDA;
+
+}
+
+img {
+	 /*display:block;*/
+	 padding:4px;
+	 border:1px solid #c3c3c3;
+}
+
+/***  DIV CONTENEDOR DE BOTON BUSCAR  ***/
+
+#ButtonBuscar { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+#divBotonBuscar
+{
+	position:absolute;
+	top:620px;
+	right:-8px;/*122*/
+}
+
+/************* ESTILO DEL FORMULARIO HISTORIAL ***************/
+
+#formContenedorhistorial {
+	position:absolute;
+	width:920px;
+	left:26px;/*162*/
+	margin-left:10px;
+	top: 222px;
+}
+
+#divcompletohistorial {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:923px;
+	height:580px;
+}
+
+table#miTablaUpdHistorial  {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablabuscar.PNG) no-repeat left;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:600px;
+}
+
+#divTablaIntHistorial  {
+	overflow:scroll;
+	border:1px solid #0F2F4B;
+	height:170px;
+}
+
+table#miTablaIntHistorial {
+	table-layout:fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:863px;
+}
+
+.trHistorial{ 
+     background:url(../imagenes/bgthgrid.JPG) repeat center;
+	 font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	 color: #0F2F4B;
+	 width:2450px;
+}
+.tdHistorial{ 
+	 text-align:center;
+	 border:1px solid #B6CFDA;
+
+}
+.thHistorial{ 
+     text-align:center;
+	 border:1px solid #B6CFDA;
+}
+
+/***************ESTILO DEL FORMULARIO DETALLE MANTENCION ****************/
+
+#DivContenedorDetalle{
+	text-align:left;
+	position:absolute;
+	width:800px;
+	margin-left:0px;
+	top:0px;
+	left:0px;
+}
+
+table#miTablaDetMant {
+	table-layout: inherit;
+	border:1px solid #B6CFDA;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:830px;
+}
+
+.td_mat{
+	text-align:inherit;
+}
+
+.tdrespuesta{
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#999999 ;/*#15428b*/
+}
+

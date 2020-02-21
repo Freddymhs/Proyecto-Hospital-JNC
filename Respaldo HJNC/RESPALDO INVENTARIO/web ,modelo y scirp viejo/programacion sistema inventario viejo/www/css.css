@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+	background:url(imagenes/fondo.png) no-repeat;
+	position:absolute;
+}
+
+#formContenedorMenu{
+	position:absolute;
+	width:510px;
+	left:380px;
+	top: 202px;
+}
+
+#tablamenu{
+	background:url(imagenes/fondotablaportada.png) no-repeat;
+	width:510px;
+	height:350px;
+}
+	
+.ImgMenu{
+	border:0;
+}
+

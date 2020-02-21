@@ -1,0 +1,34 @@
+/*==============================================================*/
+/* DBMS name:      MySQL 5.0                                    */
+/* Created on:     07-02-2012 11:56:25                          */
+/*==============================================================*/
+
+
+/*==============================================================*/
+/* Table: FICHA                                                 */
+/*==============================================================*/
+create table FICHA
+(
+   ID_FICHA             int not null,
+   NUM_FICHA            numeric(10,0),
+   RUT_PAC              varchar(12),
+   NOMBRES_PAC          varchar(100),
+   APELLIDOS_PAC        varchar(100),
+   FECHA_NAC            date,
+   EDAD                 numeric(3,0),
+   PROFESION            varchar(100),
+   DIRECCION            varchar(100),
+   FECHA_FICHA          date,
+   ESTADO_CIVIL         varchar(12),
+   GENERO               varchar(10),
+   SEXO                 varchar(6),
+   PROCEDENCIA          varchar(100),
+   ESCOLARIDAD          varchar(20),
+   MAC                  varchar(100),
+   TRANSFUSIONES        varchar(2),
+   DONANTE              varchar(2),
+   ALERGIA              varchar(2),
+   OBSERVACIONES        varchar(500),
+   primary key (ID_FICHA)
+);
+

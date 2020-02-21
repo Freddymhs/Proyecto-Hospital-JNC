@@ -1,0 +1,327 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{background:url(../imagenes/background.png) no-repeat;
+	  position:absolute;
+	  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	  color: #15428b;
+}
+
+A:link { text-decoration:  none;
+		   padding-top:1px;
+		   padding-bottom:1px;
+		   font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+		   color: #846E38;
+		   /*text-align:left;*/
+}
+
+/***********  MENU USUARIOS  ************/
+
+#formContenedorMenu {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:26px;/*162*/
+	top: 225px;
+}
+
+table#miTablaMenu {
+	background:url(../imagenes/fondotablamenu.png) no-repeat;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	width:940px;
+	height:397px;
+}
+
+.ImgMenu{
+	border:0;
+}
+
+
+
+
+/*********** FORMULARIO DE REGISTRO ************/
+
+#formContenedor {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:18px;/*162*/
+	margin-left:10px;
+	top: 225px;
+}
+
+.cabeceTitulos{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	text-align:center;
+}
+
+table#TablaRegistro {
+	background:url(../imagenes/fondotablaingreso.png) no-repeat;
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:925px;	
+}
+
+.inputNumFicha { 
+	width:115px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputFecha { 
+	width:80px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputRut { 
+	width:90px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputNombres { 
+	width:300px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputProcedencia{ 
+	width:170px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputEdad { 
+	width:22px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+.inputDireccion { 
+	width:400px;
+	height:17px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #ABA274;
+}
+
+/**  BOTONES GUARGAR Y LIMPIAR **/
+
+#divBoton
+{
+	position:absolute;
+	top:515px;
+	right:-20px;/*122*/
+}
+
+button { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/** Capas de transparencia y mensajes de confirmacion **/
+
+#transparencia
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	width:925px;
+	height:520px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");/*95*/
+}
+
+#transparenciaMensaje
+{
+	position:absolute;
+	width:300px;/*300*/
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}
+
+/*********** FORMULARIO DE BUSQUEDA ************/
+
+#formContenedorbuscar {
+	text-align:left;
+	position:absolute;
+	width:900px;
+	left:10px;/*162*/
+	margin-left:10px;
+	top: 223px;
+}
+
+#divcompleto {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;/*#0F2F4B;*/
+	width:923px;
+	height:580px;
+}
+
+table#miTablaUpd {
+	table-layout: fixed;
+	background:url(../imagenes/fondotablabuscar.PNG) no-repeat top;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;/*#0F2F4B;*/
+	width:940px;
+	height:600px;
+}
+
+#divTablaInt {
+	overflow:scroll;
+	border:1px solid #15428b;/*#0F2F4B;*/
+	height:150px;
+}
+
+.cabeceratablaInt{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;/*#0F2F4B;*/
+	text-align:center;
+}
+
+table#miTablaInt {
+	table-layout: fixed;
+	background-color:#DEE4E6;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #0F2F4B;
+	text-align:center;
+	width:800px;
+}
+
+.tr{ 
+     background:url(../imagenes/bgthgrid.JPG) repeat center;
+	 font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	 color: #0F2F4B;
+	 width:2450px;
+	}
+.td{ 
+	 text-align:center;
+	 border:1px solid #B6CFDA;
+
+}
+.th{ 
+	 border:1px solid #B6CFDA;
+}
+
+
+
+/***  DIV CONTENEDOR DE BOTON BUSCAR  ***/
+
+#divBotonBuscar{
+	position:absolute;
+	top:395px;
+	right:-25px;/*122*/
+}
+
+#ButtonBuscar { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+
+/*********** FORMULARIO DE UPDATE ************/
+
+#formContenedorUpd {
+	text-align:left;
+	position:absolute;
+	width:759px;
+	left:-10px;/*162*/
+	margin-left:-10px;
+	top: -20px;
+}
+
+.cabeceTitulosUpd{
+	padding-top:5px;
+	padding-bottom:5px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	text-align:center;
+}
+
+table#TablaUpdate {
+	background-color:#FFFAE2;
+	table-layout: fixed;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #15428b;
+	width:759px;	
+}
+
+.tdrespuesta{
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#999999 ;/*#15428b*/
+}
+
+/***  DIV CONTENEDOR DE BOTON BUSCAR  ***/
+
+#divBotonUpd{
+	position:absolute;
+	top:510px;
+	right:10px;/*122*/
+}
+
+#botonEnviarUpd { 
+	width:100px; 
+	height:22px; 
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+/** Capas de transparencia y mensajes de confirmacion **/
+
+#transparenciaUpd
+{
+	background-color:#FFFFFF; /*#FFFFFF*/
+	z-index:1; 
+	position:absolute;
+	width:890px;
+	height:540px;
+	display:none;
+	opacity:0.45; filter:alpha(opacity="80");/*95*/
+}
+
+#transparenciaMensajeUpd
+{
+	position:absolute;
+	width:300px;/*300*/
+	height:100px;
+	margin-top:-50px;
+	margin-left:-120px;
+	top:40%;
+	left:45%;
+	text-align:center;/**/
+}

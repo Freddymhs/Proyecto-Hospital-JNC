@@ -1,0 +1,34 @@
+/*==============================================================*/
+/* dbms name:      mysql 5.0                                    */
+/* created on:     07-02-2012 11:56:25                          */
+/*==============================================================*/
+
+
+/*==============================================================*/
+/* table: ficha                                                 */
+/*==============================================================*/
+create table ficha
+(
+   id_ficha             int not null,
+   num_ficha            numeric(10,0),
+   rut_pac              varchar(12),
+   nombres_pac          varchar(100),
+   apellidos_pac        varchar(100),
+   fecha_nac            date,
+   edad                 numeric(3,0),
+   profesion            varchar(100),
+   direccion            varchar(100),
+   fecha_ficha          date,
+   estado_civil         varchar(12),
+   genero               varchar(10),
+   sexo                 varchar(6),
+   procedencia          varchar(100),
+   escolaridad          varchar(20),
+   mac                  varchar(100),
+   transfusiones        varchar(2),
+   donante              varchar(2),
+   alergia              varchar(2),
+   observaciones        varchar(500),
+   primary key (id_ficha)
+);
+

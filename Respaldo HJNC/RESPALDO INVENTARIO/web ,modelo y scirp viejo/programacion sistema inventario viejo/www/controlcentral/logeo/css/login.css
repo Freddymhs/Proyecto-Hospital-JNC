@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	#wrapper
+		{
+			
+			background:url(../../imagenes/fondologeo.png) no-repeat;
+			font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+			color: #0F2F4B;
+			margin-top:105px;
+			margin-left:300px;
+			width:400px;
+			height:300px;
+			
+			
+		}
+	
+	a
+		{
+			text-decoration:none;
+			color:#999;
+			border-bottom:dotted 1px #999;
+		}
+	a:hover
+		{
+			color:#990000;
+			border-bottom:solid 1px #990000;
+		}
+	form
+		{
+			padding:15px; margin:0;
+		}
+	#err
+		{
+		text-align:center;
+		color:red;
+		position:absolute;
+		top:270px;
+		left:305px;
+		width:385px;
+		height: 28px;
+		padding:10px 0px;
+		border-top:solid 3px #FF6A6A;
+		display:block;
+		background:#FFF2F2;
+		
+		}
+	label
+		{
+		font-weight:bold;
+		display:block;
+		}
+	.textfield
+		{
+			background:#f0f0f0;
+			border:solid 1px #ccc;
+			padding:3px;
+			margin:4px 0px 4px 0px;
+			width:90%;
+		}
+	.textfield:hover,
+	.textfield:focus
+		{
+		background:#fff;
+		border:solid 1px #333;
+		color:#000;
+		}
+	
+	.buttonfield
+		{
+			background:#eee;
+			border:solid 1px #ddd;
+			color:#ccc;
+			font:bold 11px/normal Tahoma, Verdana;
+			margin-top:10px;
+			padding:4px;
+		}
+	.buttonfield:hover,
+	.buttonfield:focus
+		{
+			background:#ddd;
+			border:solid 1px #ccc;
+			color:#fff;
+		}
+#footer
+	{
+		padding:10px;
+		margin:10px auto;
+	}

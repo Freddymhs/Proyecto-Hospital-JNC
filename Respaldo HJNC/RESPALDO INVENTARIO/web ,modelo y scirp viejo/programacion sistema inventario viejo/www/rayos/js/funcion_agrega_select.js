@@ -1,0 +1,36 @@
+// JavaScript Document
+
+	$(function(){
+        $("#buttonAddSelect").click(function(){
+            $("#tipo_exam2").css("display","");
+        });
+    });
+	$(function(){
+        $("#buttonAddSelect2").click(function(){
+            $("#tipo_exam3").css("display","");
+        });
+        $("#buttonDelSelect2").click(function(){
+         $("#tipo_exam2").css("display","none");
+        });
+    });
+	$(function(){
+        $("#buttonAddSelect3").click(function(){
+            $("#tipo_exam4").css("display","");
+        });
+        $("#buttonDelSelect3").click(function(){
+         $("#tipo_exam3").css("display","none");
+        });
+    });
+	$(function(){
+        $("#buttonAddSelect4").click(function(){
+            $("#tipo_exam5").css("display","");
+        });
+        $("#buttonDelSelect4").click(function(){
+         $("#tipo_exam4").css("display","none");
+        });
+    });
+	$(function(){
+        $("#buttonDelSelect5").click(function(){
+         $("#tipo_exam5").css("display","none");
+        });
+    });
